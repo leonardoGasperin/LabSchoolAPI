@@ -41,7 +41,7 @@ This controller registry a requeriment for pedagogues services and update if stu
   - if the codigo is invalid will return 404 not found
   - if anything goes wrong on update before save will return 500 bad request.
 # Instalation && Requirements
-To run this webAPI you will need one PC with internet acess, VStudio or VSCode or any equivalent ID that you can run ASP.NET and C# NuGet packages and a SQL DataBase, I recommend use what I used SSMS.
+To run this webAPI you will need one PC with internet access, VStudio or VSCode or any equivalent ID that you can run ASP.NET and C# NuGet packages and a SQL DataBase, I recommend use what I used SSMS.
 - SSMS version 18 or +
 ### Using VStudio 2022
 - Version: 17.4.1 or +
@@ -68,6 +68,6 @@ with a SQL working on your IDE properly you will need run the command on the ter
 and after the update using
   <code>dotnet ef migrations add</code>
 after it you'll need choosen the ISS Express depuration or HTTPS and it'll can be run.
-# Acess and usage
+# Access and usage
 This project is all open source, and it's free, can be cloned and can open a branch for new updates if you want.
 But this repository is my portifolio and you are free to download and make a personal repository with this project if you plea.
