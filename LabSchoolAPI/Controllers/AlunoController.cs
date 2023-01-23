@@ -151,7 +151,7 @@ namespace LabSchoolAPI.Controllers
 
             if (aluno is null)
             {
-                return NotFound();
+                return NotFound("Código invalido");
             }
 
             _context.Alunos.Remove(aluno);
