@@ -42,6 +42,10 @@ namespace LabSchoolAPI.Controllers
             {
                 listaRetorno = listaRetorno.Where(w => w.Situacao == situacao.ToUpper()).ToList();
             }
+            if(listaRetorno.Count <= 0)
+            {
+                return NotFound("Situação de matricula invalido.");
+            }
 
             return listaRetorno;
 
