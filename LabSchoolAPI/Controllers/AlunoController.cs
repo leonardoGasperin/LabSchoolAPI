@@ -63,7 +63,7 @@ namespace LabSchoolAPI.Controllers
 
             if (aluno is null)
             {
-                return NotFound();
+                return NotFound("Código invalido");
             }
 
             return _mapper.Map<AlunoResponseDTO>(aluno);
